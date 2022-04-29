@@ -1,37 +1,102 @@
-## Welcome to GitHub Pages
+<p>Clarusway<img align="right"
+  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
 
-You can use the [editor on GitHub](https://github.com/TalhaDemirtas/talhademirtas.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+# Project-001 :Survey Form (HC-01)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Description
+Project aims to create survey form within html and css.
 
-### Markdown
+## Problem Statement
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Your company has recently started on a project that aims to conduct a survey to measure the demands and interests of its customers. So you and your colleagues have started to work on the project.
 
-```markdown
-Syntax highlighted code block
+## Project Design
 
-# Header 1
-## Header 2
-### Header 3
+- <a href="https://www.figma.com/file/HXULRJVkPlaCpxQlbm82bX/Project001?node-id=6%3A4">https://www.figma.com/file/HXULRJVkPlaCpxQlbm82bX/Project001?node-id=6%3A4<a>
 
-- Bulleted
-- List
+## Project Skeleton 
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+001-survey-form (folder)
+|
+|----readme.md         # Given to the students (Definition of the project)          
+|----solution
+        |----index.html  
+        |----style.css   
+        |----result.html 
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Expected Outcome
 
-### Jekyll Themes
+![Project 001 Snapshot](Project_001_.png)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TalhaDemirtas/talhademirtas.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Objective
 
-### Support or Contact
+Functionally create a Survey Form as in the image above
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### At the end of the project, following topics are to be covered;
+
+- HTML Forms-Input Types 
+
+- HTML Form Elements
+
+- CSS Colors-Border Properties
+
+- CSS Margins-Padding
+
+- CSS Properties for Texts-Font Families-Links
+
+
+### At the end of the project, students will be able to;
+
+- improve coding skills within HTML & CSS
+
+- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
+
+## Steps to Solution
+  
+- Step 1: Download or clone project repo on Github 
+
+- Step 2: Create project folder for local public repo on your pc
+
+- Step 3: Create Survey Form
+
+>>Part-1 HTML Structure
+
+	- Creat structure of the HTML5
+	- Give name of your project (title)
+	- Create the main structure of the container (div id="container")
+	- Create Main Topic of the project (id="title")
+	- Create a description of your project (id="description")
+	- Create a form (id="survey-form")
+	- Create 4 divisions (class="box") for each label and single-line text input field (Tips:dont forget to use placeholder)
+	- Create a division (class="box") for a dropdown list. (Tips:dont forget to use a label tag)
+	- Create a division (class="box") for checkbox list
+	- Create a division (class="box") for radio buttons
+	- Create a division (class="box") for a multi-line input field (Tips: a text area)
+	- Create a button for id="submit" the form
+
+>>Part-2 CSS Structure
+	- Set a background and define font-color="white"
+	- Set container background color and margin
+	- Define "title" and "description" color-size-padding etc...
+	- Define "survey-form" color-size-padding etc..
+	- Define labels color-size-padding etc... (Tips: id="name", "email", "number" ...)
+	- Set class color-size-padding-margin etc...
+	- Define id="submit" color-size-padding etc...
+	
+- Step 4: Push your application into your own public repo on Github
+
+- Step 5: Deploy your application on Github template to showcase your app within your team.
+
+## Notes
+
+- You can use HTML,and CSS to complete this project.
+
+## Resources
+
+-  [Background Image Url](./background_image.jpg)
+
+
+<center> &#8987; Happy Coding  &#9997; </center>
+
